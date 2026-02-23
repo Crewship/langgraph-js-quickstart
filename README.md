@@ -1,28 +1,38 @@
 # LangGraph.js Quickstart
 
-A minimal LangGraph.js research graph. Clone, set your key, run.
+A minimal LangGraph.js research graph. Clone, set your key, deploy — done.
 
-## Run in 3 steps
+## Deploy in 3 steps
 
 ### 1. Clone & install
 
 ```bash
 git clone https://github.com/Crewship/langgraph-js-quickstart.git
 cd langgraph-js-quickstart
+npm install crewship
 npm install
 ```
 
 ### 2. Set your API key
 
 ```bash
-cp .env.example .env   # add your OPENAI_API_KEY
+crewship env set OPENAI_API_KEY=sk-...
 ```
 
 > **Using a different provider?** Swap the `ChatOpenAI` import in `src/graph.ts` and set the matching key — e.g. `ANTHROPIC_API_KEY` for Claude, `GROQ_API_KEY` for Groq (free tier).
 
-### 3. Run
+### 3. Deploy
 
 ```bash
+crewship deploy
+```
+
+That's it. Your research graph is live.
+
+## Run locally (optional)
+
+```bash
+cp .env.example .env   # add your OPENAI_API_KEY
 npm start
 ```
 
