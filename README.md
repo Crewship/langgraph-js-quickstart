@@ -7,7 +7,7 @@ A minimal LangGraph.js research graph. Clone, set your key, run.
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/vhalasi/langgraph-js-quickstart.git
+git clone https://github.com/Crewship/langgraph-js-quickstart.git
 cd langgraph-js-quickstart
 npm install
 ```
