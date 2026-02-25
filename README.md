@@ -9,7 +9,8 @@ A minimal LangGraph.js research graph. Clone, set your key, deploy — done.
 ```bash
 git clone https://github.com/Crewship/langgraph-js-quickstart.git
 cd langgraph-js-quickstart
-npm install crewship
+# Install Crewship CLI tool
+curl -fsSL crewship.dev/install | bash
 npm install
 ```
 

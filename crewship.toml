@@ -1,0 +1,8 @@
+[deployment]
+framework = "langgraph-js"
+entrypoint = "./src/graph.ts:graph"
+profile = "slim"
+
+[build]
+exclude = [ "tests" ]
+
